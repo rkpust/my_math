@@ -13,6 +13,12 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.add(1, 2, 4), 7)
         self.assertEqual(mm.add(1, 5, -4, 8), 10)
 
+    def test_sub(self):
+        self.assertEqual(mm.sub(5, 2), 3)
+        self.assertEqual(mm.sub(-5, -2), -3)
+        self.assertEqual(mm.sub(-5, 2), -7)
+        self.assertEqual(mm.sub(5, -2), 7)
 
+        
 if __name__ == "__main__":
     unittest.main()

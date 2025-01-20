@@ -9,3 +9,9 @@ def add(*args):
         sum += number
 
     return sum
+
+def sub(x, y):
+    result = 0
+    result = x - y
+
+    return result
