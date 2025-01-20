@@ -23,3 +23,10 @@ def mul(*args):
         product *= number
 
     return product
+
+def div(dividend, divisor):
+    if divisor == 0:
+        return f"ZeroDivisionError: division by zero"
+    else:
+        quotient = dividend / divisor
+        return quotient
