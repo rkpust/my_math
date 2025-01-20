@@ -37,4 +37,11 @@ def mod(dividend, divisor):
     else:
         remainder = dividend % divisor
         return remainder
+
+def flr_div(dividend, divisor):
+    if divisor == 0:
+        return f"ZeroDivisionError: integer division or modulo by zero"
+    else:
+        floor_quotient = dividend // divisor
+        return floor_quotient
     

@@ -47,6 +47,18 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.mod(0, -3), 0)
         self.assertEqual(mm.mod(2, 0), 'ZeroDivisionError: integer division or modulo by zero')
 
+    def test_flr_div(self):
+            self.assertEqual(mm.flr_div(10, 2), 5)
+            self.assertEqual(mm.flr_div(15, -3), -5)
+            self.assertEqual(mm.flr_div(-20, 5), -4)
+            self.assertEqual(mm.flr_div(5, 2), 2)
+            self.assertEqual(mm.flr_div(20, 3), 6)
+            self.assertEqual(mm.flr_div(2.5, 4), 0.0)
+            self.assertEqual(mm.flr_div(25, 4.5), 5.0)
+            self.assertEqual(mm.flr_div(0, 3), 0)
+            self.assertEqual(mm.flr_div(0, -4), 0)
+            self.assertEqual(mm.flr_div(2, 0), 'ZeroDivisionError: integer division or modulo by zero')
 
+        
 if __name__ == "__main__":
     unittest.main()
