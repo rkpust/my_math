@@ -15,3 +15,11 @@ def sub(x, y):
     result = x - y
 
     return result
+
+def mul(*args):
+    product = 1
+
+    for number in args:
+        product *= number
+
+    return product
