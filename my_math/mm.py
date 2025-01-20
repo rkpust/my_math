@@ -30,3 +30,11 @@ def div(dividend, divisor):
     else:
         quotient = dividend / divisor
         return quotient
+    
+def mod(dividend, divisor):
+    if divisor == 0:
+        return f"ZeroDivisionError: integer division or modulo by zero"
+    else:
+        remainder = dividend % divisor
+        return remainder
+    
