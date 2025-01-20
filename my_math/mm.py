@@ -45,3 +45,10 @@ def flr_div(dividend, divisor):
         floor_quotient = dividend // divisor
         return floor_quotient
     
+def exp(base, power):
+    if base == 0 and power < 0:
+        return f"ZeroDivisionError: 0.0 cannot be raised to a negative power"
+    else:
+        result = base ** power
+        return result
+    

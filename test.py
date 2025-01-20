@@ -59,6 +59,16 @@ class TestMyMath(unittest.TestCase):
             self.assertEqual(mm.flr_div(0, -4), 0)
             self.assertEqual(mm.flr_div(2, 0), 'ZeroDivisionError: integer division or modulo by zero')
 
+    def test_exp(self):
+            self.assertEqual(mm.exp(0, 0), 1)
+            self.assertEqual(mm.exp(-1, 0), 1)
+            self.assertEqual(mm.exp(2, 5), 32)
+            self.assertEqual(mm.exp(3, 0), 1)
+            self.assertEqual(mm.exp(2.5, 4.5), 61.76323555016366)
+            self.assertEqual(mm.exp(-2, -3), -0.125)
+            self.assertEqual(mm.exp(0, 3), 0)
+            self.assertEqual(mm.exp(0, -4), 'ZeroDivisionError: 0.0 cannot be raised to a negative power')
+
         
 if __name__ == "__main__":
     unittest.main()
