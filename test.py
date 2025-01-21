@@ -88,6 +88,12 @@ class TestMyMath(unittest.TestCase):
             self.assertEqual(mm.gt(12, 5), True)
             self.assertEqual(mm.gt(-3, -3), False)
 
+    def lt(self):
+            self.assertEqual(mm.lt(0, 0), False)
+            self.assertEqual(mm.lt(-1, 0), True)
+            self.assertEqual(mm.lt(12, 5), False)
+            self.assertEqual(mm.lt(-3, -3), False)
+
         
 if __name__ == "__main__":
     unittest.main()

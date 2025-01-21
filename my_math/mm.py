@@ -69,5 +69,11 @@ def gt(x, y):
     if x > y:
         return True
     else:
+        return 
+    
+def lt(x, y):
+    if x < y:
+        return True
+    else:
         return False
     
