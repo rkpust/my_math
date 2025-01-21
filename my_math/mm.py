@@ -65,3 +65,9 @@ def ne(x, y):
     else:
         return False
     
+def gt(x, y):
+    if x > y:
+        return True
+    else:
+        return False
+    
