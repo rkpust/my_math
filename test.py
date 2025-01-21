@@ -75,6 +75,12 @@ class TestMyMath(unittest.TestCase):
             self.assertEqual(mm.eq(2, 5), False)
             self.assertEqual(mm.eq(-3, -3), True)
 
+    def ne(self):
+            self.assertEqual(mm.ne(0, 0), False)
+            self.assertEqual(mm.ne(-1, 0), True)
+            self.assertEqual(mm.ne(2, 5), True)
+            self.assertEqual(mm.ne(-3, -3), False)
+
         
 if __name__ == "__main__":
     unittest.main()

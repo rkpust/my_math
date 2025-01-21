@@ -58,3 +58,9 @@ def eq(x, y):
     else:
         return False
     
+def ne(x, y):
+    if x != y:
+        return True
+    else:
+        return False
+    
