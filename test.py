@@ -94,6 +94,12 @@ class TestMyMath(unittest.TestCase):
             self.assertEqual(mm.lt(12, 5), False)
             self.assertEqual(mm.lt(-3, -3), False)
 
+    def ge(self):
+            self.assertEqual(mm.ge(0, 0), True)
+            self.assertEqual(mm.ge(-1, 0), False)
+            self.assertEqual(mm.ge(12, 5), True)
+            self.assertEqual(mm.ge(-3, -3), True)
+
         
 if __name__ == "__main__":
     unittest.main()
