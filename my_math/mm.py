@@ -51,7 +51,8 @@ def exp(base, power):
     else:
         result = base ** power
         return result
-    
+
+# Comparison
 def eq(x, y):
     if x == y:
         return True
