@@ -69,6 +69,12 @@ class TestMyMath(unittest.TestCase):
             self.assertEqual(mm.exp(0, 3), 0)
             self.assertEqual(mm.exp(0, -4), 'ZeroDivisionError: 0.0 cannot be raised to a negative power')
 
+    def eq(self):
+            self.assertEqual(mm.eq(0, 0), True)
+            self.assertEqual(mm.eq(-1, 0), False)
+            self.assertEqual(mm.eq(2, 5), False)
+            self.assertEqual(mm.eq(-3, -3), True)
+
         
 if __name__ == "__main__":
     unittest.main()
