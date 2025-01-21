@@ -83,3 +83,9 @@ def ge(x, y):
     else:
         return False
     
+def le(x, y):
+    if x <= y:
+        return True
+    else:
+        return False
+    
