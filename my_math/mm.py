@@ -105,3 +105,10 @@ def bxor(x, y):
 def bnot(x):
     result = ~x
     return result
+
+def bls(x, y):
+    if y < 0:
+        return f"ValueError: negative shift count"
+    else:
+        result = x << y
+        return result

@@ -131,6 +131,12 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.bnot(12), -13)
         self.assertEqual(mm.bnot(-3), 2)
 
+    def bls(self):
+        self.assertEqual(mm.bls(6, 3), 48)
+        self.assertEqual(mm.bls(1, 1), 2)
+        self.assertEqual(mm.bls(12, 5), 384)
+        self.assertEqual(mm.bls(-3, 0), -3)
+
 
 if __name__ == "__main__":
     unittest.main()
