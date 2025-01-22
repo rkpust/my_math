@@ -106,6 +106,13 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.le(12, 5), False)
         self.assertEqual(mm.le(-3, -3), True)
 
-        
+    # Bitwise
+    def band(self):
+        self.assertEqual(mm.band(6, 3), 2)
+        self.assertEqual(mm.band(1, 1), 1)
+        self.assertEqual(mm.band(12, 5), 4)
+        self.assertEqual(mm.band(-3, -3), -3)
+
+
 if __name__ == "__main__":
     unittest.main()

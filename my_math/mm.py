@@ -88,4 +88,8 @@ def le(x, y):
         return True
     else:
         return False
-    
+
+# Bitwise
+def band(x, y):
+    result = x & y
+    return result
