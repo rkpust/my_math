@@ -48,63 +48,63 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.mod(2, 0), 'ZeroDivisionError: integer division or modulo by zero')
 
     def test_flr_div(self):
-            self.assertEqual(mm.flr_div(10, 2), 5)
-            self.assertEqual(mm.flr_div(15, -3), -5)
-            self.assertEqual(mm.flr_div(-20, 5), -4)
-            self.assertEqual(mm.flr_div(5, 2), 2)
-            self.assertEqual(mm.flr_div(20, 3), 6)
-            self.assertEqual(mm.flr_div(2.5, 4), 0.0)
-            self.assertEqual(mm.flr_div(25, 4.5), 5.0)
-            self.assertEqual(mm.flr_div(0, 3), 0)
-            self.assertEqual(mm.flr_div(0, -4), 0)
-            self.assertEqual(mm.flr_div(2, 0), 'ZeroDivisionError: integer division or modulo by zero')
+        self.assertEqual(mm.flr_div(10, 2), 5)
+        self.assertEqual(mm.flr_div(15, -3), -5)
+        self.assertEqual(mm.flr_div(-20, 5), -4)
+        self.assertEqual(mm.flr_div(5, 2), 2)
+        self.assertEqual(mm.flr_div(20, 3), 6)
+        self.assertEqual(mm.flr_div(2.5, 4), 0.0)
+        self.assertEqual(mm.flr_div(25, 4.5), 5.0)
+        self.assertEqual(mm.flr_div(0, 3), 0)
+        self.assertEqual(mm.flr_div(0, -4), 0)
+        self.assertEqual(mm.flr_div(2, 0), 'ZeroDivisionError: integer division or modulo by zero')
 
     def test_exp(self):
-            self.assertEqual(mm.exp(0, 0), 1)
-            self.assertEqual(mm.exp(-1, 0), 1)
-            self.assertEqual(mm.exp(2, 5), 32)
-            self.assertEqual(mm.exp(3, 0), 1)
-            self.assertEqual(mm.exp(2.5, 4.5), 61.76323555016366)
-            self.assertEqual(mm.exp(-2, -3), -0.125)
-            self.assertEqual(mm.exp(0, 3), 0)
-            self.assertEqual(mm.exp(0, -4), 'ZeroDivisionError: 0.0 cannot be raised to a negative power')
+        self.assertEqual(mm.exp(0, 0), 1)
+        self.assertEqual(mm.exp(-1, 0), 1)
+        self.assertEqual(mm.exp(2, 5), 32)
+        self.assertEqual(mm.exp(3, 0), 1)
+        self.assertEqual(mm.exp(2.5, 4.5), 61.76323555016366)
+        self.assertEqual(mm.exp(-2, -3), -0.125)
+        self.assertEqual(mm.exp(0, 3), 0)
+        self.assertEqual(mm.exp(0, -4), 'ZeroDivisionError: 0.0 cannot be raised to a negative power')
 
     # Comparison
     def eq(self):
-            self.assertEqual(mm.eq(0, 0), True)
-            self.assertEqual(mm.eq(-1, 0), False)
-            self.assertEqual(mm.eq(2, 5), False)
-            self.assertEqual(mm.eq(-3, -3), True)
+        self.assertEqual(mm.eq(0, 0), True)
+        self.assertEqual(mm.eq(-1, 0), False)
+        self.assertEqual(mm.eq(2, 5), False)
+        self.assertEqual(mm.eq(-3, -3), True)
 
     def ne(self):
-            self.assertEqual(mm.ne(0, 0), False)
-            self.assertEqual(mm.ne(-1, 0), True)
-            self.assertEqual(mm.ne(2, 5), True)
-            self.assertEqual(mm.ne(-3, -3), False)
+        self.assertEqual(mm.ne(0, 0), False)
+        self.assertEqual(mm.ne(-1, 0), True)
+        self.assertEqual(mm.ne(2, 5), True)
+        self.assertEqual(mm.ne(-3, -3), False)
 
     def gt(self):
-            self.assertEqual(mm.gt(0, 0), False)
-            self.assertEqual(mm.gt(-1, 0), False)
-            self.assertEqual(mm.gt(12, 5), True)
-            self.assertEqual(mm.gt(-3, -3), False)
+        self.assertEqual(mm.gt(0, 0), False)
+        self.assertEqual(mm.gt(-1, 0), False)
+        self.assertEqual(mm.gt(12, 5), True)
+        self.assertEqual(mm.gt(-3, -3), False)
 
     def lt(self):
-            self.assertEqual(mm.lt(0, 0), False)
-            self.assertEqual(mm.lt(-1, 0), True)
-            self.assertEqual(mm.lt(12, 5), False)
-            self.assertEqual(mm.lt(-3, -3), False)
+        self.assertEqual(mm.lt(0, 0), False)
+        self.assertEqual(mm.lt(-1, 0), True)
+        self.assertEqual(mm.lt(12, 5), False)
+        self.assertEqual(mm.lt(-3, -3), False)
 
     def ge(self):
-            self.assertEqual(mm.ge(0, 0), True)
-            self.assertEqual(mm.ge(-1, 0), False)
-            self.assertEqual(mm.ge(12, 5), True)
-            self.assertEqual(mm.ge(-3, -3), True)
+        self.assertEqual(mm.ge(0, 0), True)
+        self.assertEqual(mm.ge(-1, 0), False)
+        self.assertEqual(mm.ge(12, 5), True)
+        self.assertEqual(mm.ge(-3, -3), True)
 
     def le(self):
-            self.assertEqual(mm.le(0, 0), True)
-            self.assertEqual(mm.le(-1, 0), True)
-            self.assertEqual(mm.le(12, 5), False)
-            self.assertEqual(mm.le(-3, -3), True)
+        self.assertEqual(mm.le(0, 0), True)
+        self.assertEqual(mm.le(-1, 0), True)
+        self.assertEqual(mm.le(12, 5), False)
+        self.assertEqual(mm.le(-3, -3), True)
 
         
 if __name__ == "__main__":
