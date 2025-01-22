@@ -119,6 +119,12 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.bor(12, 5), 13)
         self.assertEqual(mm.bor(-3, -3), -3)
 
+    def bxor(self):
+        self.assertEqual(mm.bxor(6, 3), 5)
+        self.assertEqual(mm.bxor(1, 1), 0)
+        self.assertEqual(mm.bxor(12, 5), 9)
+        self.assertEqual(mm.bxor(-3, -3), 0)
+
 
 if __name__ == "__main__":
     unittest.main()

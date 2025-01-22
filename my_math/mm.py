@@ -97,3 +97,7 @@ def band(x, y):
 def bor(x, y):
     result = x | y
     return result
+
+def bxor(x, y):
+    result = x ^ y
+    return result
