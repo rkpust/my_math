@@ -93,3 +93,7 @@ def le(x, y):
 def band(x, y):
     result = x & y
     return result
+
+def bor(x, y):
+    result = x | y
+    return result

@@ -113,6 +113,12 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.band(12, 5), 4)
         self.assertEqual(mm.band(-3, -3), -3)
 
+    def bor(self):
+        self.assertEqual(mm.bor(6, 3), 7)
+        self.assertEqual(mm.bor(1, 1), 1)
+        self.assertEqual(mm.bor(12, 5), 13)
+        self.assertEqual(mm.bor(-3, -3), -3)
+
 
 if __name__ == "__main__":
     unittest.main()
