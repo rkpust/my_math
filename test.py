@@ -125,6 +125,12 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.bxor(12, 5), 9)
         self.assertEqual(mm.bxor(-3, -3), 0)
 
+    def bnot(self):
+        self.assertEqual(mm.bnot(3), -4)
+        self.assertEqual(mm.bnot(1), -2)
+        self.assertEqual(mm.bnot(12), -13)
+        self.assertEqual(mm.bnot(-3), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -101,3 +101,7 @@ def bor(x, y):
 def bxor(x, y):
     result = x ^ y
     return result
+
+def bnot(x):
+    result = ~x
+    return result
