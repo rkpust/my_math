@@ -137,6 +137,12 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(mm.bls(12, 5), 384)
         self.assertEqual(mm.bls(-3, 0), -3)
 
+    def brs(self):
+        self.assertEqual(mm.brs(6, 3), 0)
+        self.assertEqual(mm.brs(1, 1), 0)
+        self.assertEqual(mm.brs(12, 2), 3)
+        self.assertEqual(mm.brs(-3, 0), -3)
+
 
 if __name__ == "__main__":
     unittest.main()

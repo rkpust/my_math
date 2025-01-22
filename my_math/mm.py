@@ -112,3 +112,10 @@ def bls(x, y):
     else:
         result = x << y
         return result
+    
+def brs(x, y):
+    if y < 0:
+        return f"ValueError: negative shift count"
+    else:
+        result = x >> y
+        return result
