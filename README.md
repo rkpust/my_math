@@ -77,9 +77,9 @@ Required-by:
 ## Usage With Examples
 Here, some of usage are given below:
 ### Constant
-    ```python
-    from my_math import mm
+```python
+from my_math import mm
 
-    #pi
-    print(mm.PI) # 3.141592653589793
-    ```
+#pi
+print(mm.PI) # 3.141592653589793
+```
