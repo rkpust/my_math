@@ -83,3 +83,29 @@ from my_math import mm
 #pi
 print(mm.PI) # 3.141592653589793
 ```
+
+### Arithmetic
+```python
+from my_math import mm
+
+#addition
+print(mm.add(1, 5, -4, 8)) # 10
+
+#subtraction
+print(mm.sub(5, -2)) # 7
+
+#multiplication
+print(mm.mul(1, 5, 0, 8)) # 0
+
+#division
+print(mm.div(5, 2)) # 2.5
+
+#modulus
+print(mm.mod(20, 3)) # 2
+
+#floor division
+print(mm.flr_div(20, 3)) # 6
+
+#exponentiation
+print(mm.exp(2, 5)) # 32
+```
