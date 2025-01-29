@@ -73,3 +73,13 @@ Required-by:
 <pre>my_math                0.1</pre>
 
 *Congratulations!* You have successfully installed the **my_math** package.
+
+## Usage With Examples
+Here, some of usage are given below:
+### Constant
+    ```python
+    from my_math import mm
+
+    #pi
+    print(mm.PI) # 3.141592653589793
+    ```
