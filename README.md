@@ -109,3 +109,26 @@ print(mm.flr_div(20, 3)) # 6
 #exponentiation
 print(mm.exp(2, 5)) # 32
 ```
+
+### Comparison
+```python
+from my_math import mm
+
+#equal
+print(mm.eq(0, 0)) # True
+
+#not equal
+print(mm.ne(2, 5)) # True
+
+#greater than
+print(mm.gt(-1, 0)) # False
+
+#less than
+print(mm.lt(-3, -3)) # False
+
+#greater than or equal to
+print(mm.ge(12, 5)) # True
+
+#less than or equal to
+print(mm.le(12, 5)) # False
+```
