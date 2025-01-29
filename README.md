@@ -23,4 +23,24 @@ You can install the my_math package directly from GitHub using pip (git must be 
   ```bash
   pip install git+https://github.com/rkpust/my_math
   ```
-  
+
+### Using Python
+First, you need to download this repository as a .zip, then extract it. Now open CLI and navigate to the setup.py file path. Then run two commands one after the other.
+
+You can install the my_math package by following the command:
+
+  **i.**
+  ```bash
+  python setup.py sdist bdist_wheel
+  ```
+After executing the above command, you will see three folders build, dist, my_math.egg-info. You will also see my_math-0.1.tar.gz, my_math-0.1-py3-none-any.whl in the dist folder.
+
+  **ii.**
+  ```bash
+  pip install dist\my_math-0.1.tar.gz
+  ```
+  or 
+
+  ```bash
+  pip install dist\my_math-0.1-py3-none-any.whl
+  ```
