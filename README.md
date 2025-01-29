@@ -11,6 +11,6 @@
 
 ## Features
   - Basic arithmetic operations: addition, subtraction, multiplication, division etc.
-  - Bitwise Operationa: AND, OR, NOT, XOR etc.
+  - Bitwise Operations: AND, OR, NOT, XOR etc.
   - Comparison Operations: equal, less than, greater than etc.
   - More utilities to be added soon!
