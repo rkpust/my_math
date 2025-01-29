@@ -14,3 +14,13 @@
   - Bitwise Operations: AND, OR, NOT, XOR etc.
   - Comparison Operations: equal, less than, greater than etc.
   - More utilities to be added soon!
+
+## Installations
+To install the my_math package, you must be installed Python. Python Version >= 3.0 (Recommended)
+
+### Using Python, Git
+You can install the my_math package directly from GitHub using pip (git must be installed):
+  ```bash
+  pip install git+https://github.com/rkpust/my_math
+  ```
+  
