@@ -1,1 +1,4 @@
 __pycache__/
+build/
+dist/
+my_math.egg-info/
