@@ -44,3 +44,32 @@ After executing the above command, you will see three folders build, dist, my_ma
   ```bash
   pip install dist\my_math-0.1-py3-none-any.whl
   ```
+
+### Checking Installation
+You can check whether the **my_math** package is installed correctly by using the following command.
+ ```bash
+  pip show my_math
+  ```
+  or 
+
+  ```bash
+  pip list | findstr my_math
+  ```
+
+You will get output like below:
+<pre>
+Name: my_math
+Version: 0.1
+Summary: A simple python package for math
+Home-page: https://github.com/rkpust/my_math
+Author: Md. Rezaul Karim
+Author-email: rezaul.cse.pust17@gmail.com
+License: MIT
+Location: C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages
+Requires:
+Required-by:
+</pre>
+<hr>
+<pre>my_math                0.1</pre>
+
+*Congratulations!* You have successfully installed the **my_math** package.
