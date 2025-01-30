@@ -132,3 +132,26 @@ print(mm.ge(12, 5)) # True
 #less than or equal to
 print(mm.le(12, 5)) # False
 ```
+
+### Bitwise
+```python
+from my_math import mm
+
+#and
+print(mm.band(6, 3)) # 2
+
+#or
+print(mm.bor(1, 1)) # 1
+
+#xor
+print(mm.bxor(12, 5)) # 9
+
+#not
+print(mm.bnot(3)) # -4
+
+#zero fill left shift
+print(mm.bls(6, 3)) # 48
+
+#signed right shift
+print(mm.brs(6, 3)) # 0
+```
