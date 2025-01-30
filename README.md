@@ -161,3 +161,10 @@ print(mm.brs(6, 3)) # 0
 
 ## License
 This project is licensed under the **MIT License** – see the LICENSE file for details.
+
+## Author
+**Md. Rezaul Karim**
+<br>
+GitHub: [@rkpust](https://github.com/rkpust)
+<br>
+Portfolio: [https://sites.google.com/view/rkpust](https://sites.google.com/view/rkpust)
