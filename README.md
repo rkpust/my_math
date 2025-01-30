@@ -155,3 +155,6 @@ print(mm.bls(6, 3)) # 48
 #signed right shift
 print(mm.brs(6, 3)) # 0
 ```
+
+## Contributing
+*Contributions are welcome!* If you'd like to improve or add new features to the **my_math** package, please fork the repository and submit a pull request. Be sure to include tests for new features, and ensure the code adheres to the project’s style.
