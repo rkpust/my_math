@@ -6,6 +6,12 @@ class TestMyMath(unittest.TestCase):
     def test_PI(self):
         self.assertEqual(mm.PI, 3.141592653589793)
 
+    def test_E(self):
+        self.assertEqual(mm.E, 2.718281828459045)
+
+    def test_TAU(self):
+        self.assertEqual(mm.TAU, 2 * mm.PI)
+
     # Arithmetic
     def test_add(self):
         self.assertEqual(mm.add(5), 5)

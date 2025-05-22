@@ -82,6 +82,12 @@ from my_math import mm
 
 #pi
 print(mm.PI) # 3.141592653589793
+
+#e
+print(mm.E) # 2.718281828459045
+
+#tau
+print(mm.TAU) # 6.283185307179586
 ```
 
 ### Arithmetic

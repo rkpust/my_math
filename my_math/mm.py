@@ -1,6 +1,12 @@
 # Constant
 PI=3.141592653589793
 
+# e constant returns the Eular's number: 2.718281828459045
+E = 2.718281828459045
+
+# tau constant returns the value of tau, which is 6.283185307179586 or 2 * PI
+TAU = 6.283185307179586
+
 # Arithmetic
 def add(*args):
     sum = 0
@@ -51,6 +57,14 @@ def exp(base, power):
     else:
         result = base ** power
         return result
+
+def min(*args):
+    sum = 0
+
+    for number in args:
+        sum += number
+
+    return sum
 
 # Comparison
 def eq(x, y):
